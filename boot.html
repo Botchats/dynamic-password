@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Dynamically Changing Password</h1>
+  <p><a href="index.html">Logout</a></p>
+</div>
+  
+<div class="container">
+  <div class="row">
+     <div class="col-sm-4">
+      <h3>Introduction</h3>
+      <p>In DCP , user has to specify the parameter on which the  password needs to keep on changing such as system time , user Geolocation , user age (up to days) and much more. </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Working</h3>
+      <p>Let us consider the system time as parameter for user authentication with “HH:MM” format,based on the password  policies length of the password be 8 character,among these 8 characters let 4 characters be defined by user which is static in nature and the remaining 4 characters be defined based on the parameters chosen by the user ,here it is system time which is dynamic in nature</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Clear view of DCP</h3>        
+      <div class="login100-pic js-tilt" data-tilt>
+          <img src="dcp1.png" alt="IMG" height="350px" width="650px">
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
